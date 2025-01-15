@@ -1,0 +1,32 @@
+/*
+ * benedicta Theme Megamenu Framework CSS
+ */
+
+.field-benedicta-megamenu-status,
+.field-benedicta-megamenu-columns,
+.field-benedicta-megamenu-title,
+.field-benedicta-megamenu-link,
+.field-benedicta-megamenu-widgetarea,
+.field-benedicta-megamenu-content{
+	display: none;
+}
+
+.menu-item-depth-0 .field-benedicta-megamenu-status,
+.menu-item-depth-0.benedicta-megamenu-active .field-benedicta-megamenu-columns,
+.menu-item-depth-1.benedicta-megamenu-active .field-benedicta-megamenu-title,
+.menu-item-depth-1.benedicta-megamenu-active .field-benedicta-megamenu-link,
+.menu-item-depth-1.benedicta-megamenu-active .field-benedicta-megamenu-widgetarea,
+.menu-item-depth-1.benedicta-megamenu-active .field-benedicta-megamenu-content,
+.menu-item-depth-2.benedicta-megamenu-active .field-benedicta-megamenu-title,
+.menu-item-depth-2.benedicta-megamenu-active .field-benedicta-megamenu-link,
+.menu-item-depth-2.benedicta-megamenu-active .field-benedicta-megamenu-widgetarea,
+.menu-item-depth-2.benedicta-megamenu-active .field-benedicta-megamenu-content{
+	display: block;
+}
+.menu-item-depth-0 .field-benedicta-megamenu-label{
+	display: none !important;
+}
+.benedicta-megamenu-active .menu-item-depth-1 .field-benedicta-megamenu-label,
+.benedicta-megamenu-active .menu-item-depth-2 .field-benedicta-megamenu-label{
+	display: block !important;
+}

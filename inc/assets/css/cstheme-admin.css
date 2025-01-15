@@ -1,0 +1,10 @@
+#setting-error-tgmpa{
+	display:block !important;
+}
+
+
+/* Visual Composer Icon */
+.vc_element-icon.cstheme-vc-icon{
+	background-size:cover;
+	background-image:url(../images/cstheme-vc-icon.png);
+}

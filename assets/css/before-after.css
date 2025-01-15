@@ -1,0 +1,79 @@
+.evatheme_core_before_after-handle:before, .evatheme_core_before_after-handle:after {
+	content: " ";
+	display: block;
+	width: 3px;
+	background: white;
+	height: 9999px;
+	position: absolute;
+	left: 50%;
+	margin-left: -1.5px;
+	z-index: 30;
+}
+.evatheme_core_before_after-left-arrow, .evatheme_core_before_after-right-arrow {
+	width: 0;
+	height: 0;
+	border: 6px inset transparent;
+	position: absolute;
+	top: 50%;
+	margin-top: -6px;
+}
+.evatheme_core_before_after-container {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	overflow: hidden;
+	position: relative;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+.evatheme_core_before_after-container img {
+    position: absolute;
+    top: 0;
+    display: block;
+}
+.evatheme_core_before_after-container>img {
+	width: 100%;
+}
+.evatheme_core_before_after-container * {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.evatheme_core_before_after-before {
+	z-index: 20;
+}
+.evatheme_core_before_after-after {
+	z-index: 10;
+}
+
+.evatheme_core_before_after-handle {
+	height: 38px;
+	width: 38px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -22px;
+	margin-top: -22px;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	z-index: 40;
+}
+.evatheme_core_before_after-handle:before {
+    bottom: 50%;
+    margin-bottom: 22px;
+}
+.evatheme_core_before_after-handle:after {
+    top: 50%;
+    margin-top: 22px;
+}
+.evatheme_core_before_after-left-arrow {
+	border-right: 6px solid white;
+	left: 50%;
+	margin-left: -17px;
+}
+.evatheme_core_before_after-right-arrow {
+	border-left: 6px solid white;
+	right: 50%;
+	margin-right: -17px;
+}

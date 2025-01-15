@@ -1,0 +1,13 @@
+<wpml-config>
+	<admin-texts>
+
+		<key name="top_bar_text" />
+		<key name="footer_copyright_text" />
+		
+		<key name="benedicta_socials_title" />
+		<key name="benedicta_socials_text" />
+		<key name="benedicta_socials_image_url" />
+
+	</admin-texts>
+</wpml-config>
+
